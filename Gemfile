@@ -6,7 +6,7 @@ ruby '2.6.3'
 gem 'rubocop'
 
 # upload gems
-gem 'bootstrap', '4.0.0.alpha5'
+gem "bootstrap", ">= 4.3.1"
 gem 'carrierwave', github: 'carrierwaveuploader/carrierwave'
 gem 'mini_magick', '~> 4.3'
 gem 'simple_form'
