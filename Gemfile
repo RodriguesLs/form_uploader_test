@@ -7,7 +7,7 @@ ruby '2.6.3'
 gem 'carrierwave', github: 'carrierwaveuploader/carrierwave'
 gem 'bootstrap', '4.0.0.alpha5'
 gem 'simple_form'
-gem 'mini_magick', '~> 4.3'
+gem 'mini_magick', '~> 4.3' 
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
