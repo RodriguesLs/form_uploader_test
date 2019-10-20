@@ -5,12 +5,16 @@ ruby '2.6.3'
 
 gem 'rubocop'
 
+gem 'redis'
+gem 'sidekiq'
+
 # upload gems
 gem "bootstrap", ">= 4.3.1"
 gem 'carrierwave', github: 'carrierwaveuploader/carrierwave'
 gem 'mini_magick', '~> 4.3'
 gem 'simple_form'
 
+gem 'passenger'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.3'
@@ -57,6 +61,12 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+
+  #Automatizing deploy with capistrano
+  gem 'capistrano', '~> 3.11', require: false
+  gem 'capistrano-rails', '~> 1.3', require: false
+  gem 'capistrano-passenger', require: false
+  gem 'capistrano-rbenv', require: false
 end
 
 group :test do

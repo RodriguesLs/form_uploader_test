@@ -7,7 +7,7 @@
     <%= f.input :email %>
     <%= f.input :about %>
     <%= f.label 'Photo' %>
-    <%= f.file_field :avatar %>
+    <%= f.file_field :avatars, multiple: true %>
     <br/>
     <%= f.label 'Documentos' %>
     <%= f.file_field :documents, multiple: true %>

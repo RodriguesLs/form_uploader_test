@@ -22,7 +22,7 @@ ActiveRecord::Schema.define(version: 2019_10_18_194103) do
     t.text "about"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string "avatar"
+    t.json "avatars"
     t.json "documents"
   end
 
